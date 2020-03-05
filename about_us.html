@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Aqua</title>
+
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!-- Owl Stylesheets -->
+<link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<style type="text/css">
+	@media only screen and (max-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 664px) {
+	.btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: 3%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 190px;
+		height: 50px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.right-arrow
+	{
+		width: 50px; 
+	}
+	.abt-title
+	{
+		margin-top: -3px;
+		font-size: 10px;
+	}
+
+	.l-right-arrow
+	{
+		width: 50px;
+	}
+	.l-title
+	{
+		margin-top: 2px;
+		font-size: 10px;
+	}
+
+	.btn-lwb
+	{
+		z-index: 1;
+		position: absolute;
+		top: 84%;
+		left: 11%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 280px;
+		height: 80px;
+		background: #ffffff;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.lwb-title
+	{
+		font-family: Gotham-font;
+		font-weight: lighter;
+		margin-top: 20px;
+		margin-left: -18px;
+		font-size: 18px;
+		line-height: 7px;
+	}
+
+	.btn-vg
+	{
+		z-index: 1;
+		position: absolute;
+		top: 100%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 280px;
+		height: 50px;
+		background: #ffffff;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.vg-title
+	{
+		font-family: Gotham-font;
+		font-weight: lighter;
+		margin-top: 2px;
+		font-size: 10px;
+	}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+	<!-- Main Header / Header Style Four -->
+    <header class="main-header header-style-three">
+        
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="auto-container clearfix">
+				<!--Info-->
+				<div class="logo-outer logo-inner">
+					<div class="logo lg">
+                    	<a href="index.html">
+                    		<img src="images/logo/Aqua_Logo_1.png" class="logo-img" alt="Aqua Logo" title="">
+                    	</a>
+                    </div>
+				</div>
+
+				<!--Nav Box-->
+				<div class="nav-outer clearfix">
+					<!--Mobile Navigation Toggler For Mobile-->
+					<div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+					<nav class="main-menu navbar-expand-md navbar-light">
+						<div class="navbar-header">
+							<!-- Togg le Button -->      
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon flaticon-menu-1"></span>
+							</button>
+						</div>
+						
+						<div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                            <ul class="navigation clearfix">
+            					<li><a href="index.html">HOME</a></li>
+            					<li><a href="location.html">LOCATION</a></li>
+            					<li><a href="accomodation.html">ACCOMMODATION</a></li>
+            					<li><a href="gallery.html">GALLERY</a></li>
+            					<li><a href="promo.html">PROMO</a></li>
+            					<li class="active"><a href="about_us.html">ABOUT</a></li>
+            					<li><a href="contact_us.html">CONTACT</a></li>
+                                <li><button type="button" class="theme-btn btn-style-gold book-room-btn rs-mobile" onclick="window.location.href='book_search.html'"><span class="txt">Book A Room</span></button></li>
+                            </ul>
+                        </div>
+					</nav>
+					<!-- Main Menu End-->
+				</div>
+			</div>
+            
+        </div>
+        <!--End Header Upper-->
+
+    	<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel" style="color:#000000;"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo/Aqua_Logo_1.png" alt="" title=""></a></div>
+                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End Mobile Menu -->
+
+    </header>
+    <!-- End Main Header -->
+
+	<section class="contact-us main-slider about-index">
+		<div class="slider-box">
+			<div class="slide">
+            	<div class="image-layer img" style="background-image:url(images/about-us/Group_13.jpg);"></div>
+				<div class="auto-container">
+					<div class="content text-center pt-5">
+						<h3 class="header-title-txt wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">About us</h3>
+						<p class="header-description-txt wow fadeIn " data-wow-delay="500ms" data-wow-duration="1500ms">Learn more about Aqua Resort. The biggest indoor water park in the Philippines</p>
+					</div>
+				</div>
+			<!-- </div> -->
+				<div class="row cover">
+	    			<div class="col-md-8 covers">
+			        	<h3 class="header-title top-text wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">About Aqua</h3>
+						<p class="sub-header wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">Discover Aqua offers crafted to enhance your stay and create unforgettable moments.</p>
+	    			</div>
+	    			<div class="col-md-4 text-right  covers-left">
+			            <ul class="">
+			            	<li><a href="index.html" class="" style="color: #3B444D; float: left; margin-right: 100px;">AQUA RESORT</a></li>
+			                <li style="float: left; color: #8A8A8A;">ABOUT US</li>
+			            </ul>
+	    			</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about_us">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<!-- News Block -->
+				<div class="news-block text-left col-lg-6 col-md-6 col-sm-12">
+					<div class="about-us-top-text sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
+						<h3 class="sub-heading-txt">Aqua is a water park that lorem industry's standard dummy text ever since the 1500s</h3>
+						<br>
+					</div>
+				</div>
+				<div class="news-block col-lg-6 col-md-6 col-sm-12 pt-5">
+					<div class="accomodation-top-text-right inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="right-text text"></div>
+					</div>
+				</div>
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-6 col-sm-12 pt-5">
+					<div class="inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img src="images/about-us/Group_26.jpg">
+						</div>
+					</div>
+				</div>
+
+				<!-- News Block -->
+				<div class="news-block text-left col-lg-6 col-md-6 col-sm-12">
+					<div class="about-us-top-text-right sec-title light col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="by-numbers">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<!-- News Block -->
+				<div class="news-block text-left col-lg-6 col-md-6 col-sm-12">
+					<div class="accomodation-top-text sec-title light centered col-xl-8 col-lg-8 col-md-12 col-sm-12">
+						<p class="heading-title">By The Numbers</p>
+						<h3 class="sub-heading-txt">Aqua at a glance</h3>
+					<br>
+					
+				</div>
+				</div>
+				<div class="row by-number-text news-block col-lg-6 col-md-6 col-sm-12 pt-5">
+					<div class="text sub-lines"></div>
+					<div class="row col-md-12 number-img">
+						<div class="col-md-2"><img src="images/icons/slide_1.png"></div>
+						<h3 class="col-md-2">10</h3>
+						<p class="col-md-8">New water slider for extra fun!</p>
+					</div>
+					<!-- <div class="row"> -->
+					<div class="text sub-lines"></div>
+					<!-- </div> -->
+					<div class="row col-md-12 number-img">
+						<div class="col-md-2"><img src="images/icons/sauna_1.png"></div>
+						<h3 class="col-md-2">7</h3>
+						<p class="col-md-8">Saunas</p>
+					</div>
+
+					<div class="text sub-lines"></div>
+
+					<div class="row col-md-12 number-img">
+						<div class="col-md-2"><img src="images/icons/swimming-pool_1.png"></div>
+						<h3 class="col-md-2">25</h3>
+						<p class="col-md-8">Pools for Children and Adults!</p>
+					</div>
+					<div class="text sub-lines"></div>
+					<div class="row col-md-12 number-img">
+						<div class="col-md-2"><img src="images/icons/pavilion_1.png"></div>
+						<h3 class="col-md-2">30</h3>
+						<p class="col-md-8">Luxury Rooms</p>
+					</div>
+					<div class="text sub-lines"></div>
+					<div class="row col-md-12 number-img">
+						<div class="col-md-2"><img src="images/icons/discount_1.png"></div>
+						<h3 class="col-md-2">40</h3>
+						<p class="col-md-8">Exclusive deals & promos</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mission-section">
+		<img src="images/about-us/Group_25.png" style="background-size: cover">
+		<div class="about-card-btn">
+			<p class="heading-title">By The Numbers</p>
+			<h3>Our Goals</h3>
+			<div class="text text-left">"To be the best water park that lorem ipsum dolor sit amet in the philiipines"</div>
+			<div class="crdt">-Owner</div>
+		</div>
+	</section>
+
+	<section class="accomodation our-philosophy">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<!-- News Block -->
+				<div class="news-block col-lg-6 col-md-6 col-sm-12 pt-5">
+					<div class="inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="image">
+							<img src="images/about-us/Group_227.png">
+						</div>
+					</div>
+				</div>
+
+				<!-- News Block -->
+				<div class="news-block text-left col-lg-6 col-md-6 col-sm-12">
+					<div class="accomodation-top-text-right sec-title light col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<p class="heading-title">Our Philosophy</p>
+						<h3 class="sub-heading-txt">Our philosophy is simple; if it can be done, it will be done.</h3>
+						<br>
+						<div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</div>
+					</div>
+				</div>
+				<!-- News Block -->
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="mission-section">
+		<img src="images/contact-us/Group_23.jpg" style="background-size: cover">
+		<div class="accomodation-card-btn">
+			<p class="text-center">
+				A place of enjoyment. Lorem ipsum dolor sit amet. Plan your next getaway today!
+			</p>
+			<div class="accomodation-f-btn">
+				<p>BOOK NOW</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Millennial Resorts Gallery Section -->
+	<section class="news-section">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<div class="col-md-9">
+					<img src="images/logo/Aqua_Logo_1.png">
+					<br>
+					<ul class="social-icons-flex" style="margin-top: 30px;">
+                        <li class="social-icons-margin">
+                        	<span>Home</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>About Us</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Projects</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Locations</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Connect</span>
+                        </li>
+                    </ul>
+
+					<ul class="social-icons-flex social-media-icons">
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-facebook-f"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-twitter"></span></a>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<a href="#" target="__blank"><span class="fab fa-instagram"></span></a>
+                        </li>
+                    </ul>
+
+				</div>
+
+				<div class="col-md-3 pt-4">
+					<div class="text text-right">
+						<p class="t-copyright">&#x24B8;2020 Aqua Water Park.<br>All Rights Reserved.</p>
+					</div>
+				</div>
+			</div><hr>
+		</div>
+	</section>
+	<!-- End Millennial Resorts Gallery Section -->
+
+	<!-- Millennial Resorts Accomodations Section -->
+	
+	<!-- End Millennial Resorts Accomodations Section -->
+	
+	<!-- Millennial Resorts Main Footer-->
+    <footer class="main-footer">
+		<div class="auto-container">
+			<div class="row clearfix">
+				<div class="col-md-9">
+					<p class="text-left vsp" style="color: #1D1D1D;">Visit our sister properties</p>
+					<br>
+					<ul class="social-icons-flex" style="margin-top: -20;">
+                        <li class="social-icons-margin">
+                        	<span>Cocoons</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Aquaria</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Aqua</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>Boardwalk</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>The Colony</span>
+                        </li>
+                        <li class="social-icons-margin">
+                        	<span>The Walk</span>
+                        </li>
+                    </ul>
+				</div>
+
+				<div class="col-md-3 pt-4">
+					<div class="text">
+						<img src="images/nav-logo-millennial-resorts.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+</div>  
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+	<div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
+	<div class="popup-inner">
+		<div class="overlay-layer"></div>
+    	<div class="search-form">
+        	<form method="post" action="templateshub.net">
+            	<div class="form-group">
+                	<fieldset>
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                        <input type="submit" value="Search Now!" class="theme-btn">
+                    </fieldset>
+                </div>
+            </form>
+            
+            <br>
+            <h3>Recent Search Keywords</h3>
+            <ul class="recent-searches">
+                <li><a href="#">Home Interiors</a></li>
+                <li><a href="#">Offices Interiors</a></li>
+                <li><a href="#">Showroom Interiors</a></li>
+                <li><a href="#">Building Interiors</a></li>
+                <li><a href="#">Shops Interiors</a></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+</div>
+
+<!--Scroll to top-->
+<!-- JavaScript -->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/script.js"></script>
+<script src="assets/vendors/highlight.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/owlcarousel/owl.carousel.js"></script>
+<script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/latest/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+<!-- <script type="text/javascript">
+$(document).ready(function(){
+	$('#gallery').owlCarousel({
+	  loop: true,
+	  margin: 0,
+	  nav: true,
+	  navText: [
+	    // "<i class='fa fa-angle-left nav-text'></i>",
+	    "",
+		"<div><i class='fa fa-arrow-right nav-text'></i></div>"
+	    // "<i class='fa fa-angle-right nav-text'></i>"
+	  ],
+	  autoplay: true,
+	  autoplayHoverPause: true,
+	  responsive: {
+	    
+	    664: {
+	      items: 1
+	    },
+	    1024: {
+	      items: 4
+	    }
+	  }
+	})
+
+	$('#lwb').owlCarousel({
+	  loop: true,
+	  margin: 10,
+	  nav: true,
+	  navText: [
+	    "<i class='fa fa-angle-left nav-text'></i>",
+	    "<i class='fa fa-angle-right nav-text'></i>"
+	  ],
+	  // autoHeight: true,
+	  autoplay: false,
+	  autoplayHoverPause: true,
+	  responsive: {
+	   
+	    664: {
+	      items: 1
+	    },
+	    1024: {
+	      items: 3
+	    }
+	  }
+	})
+
+})
+
+</script> -->
+
+</body>
+
+</html>
